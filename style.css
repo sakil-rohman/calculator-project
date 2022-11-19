@@ -1,0 +1,72 @@
+body {
+    background-image: url('bg3.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* width: 100%; */
+    background-size: 100% 100%;
+  }
+.brand-name{
+    color: #c2bebe;
+    font-size: 30px;
+    font-weight: 700;
+}
+.sub-name{
+    font-size: 15px; font-weight: 500;
+}
+#time{
+    color: #c2beb1;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 19px;
+}
+#date{
+    color: #c2beb1;
+    font-size: 11px;
+    margin-left: 19px;
+}
+.input{
+    height: 80px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #A7DCFE;
+    font-size: 35px;
+    font-weight: 900;
+    padding: 10px;
+}
+.btn-number{
+    height:50px; 
+    width:70px; 
+    border-radius:10px;
+    font-size: 30px;
+    font-weight: 900;
+    background-color: #D1D2DA;
+    border:1px solid rgb(162, 160, 160);
+    box-shadow: 0 9px #999;
+}
+.btn-red{    
+    background-color: rgb(231, 106, 106);
+    box-shadow: 0 9px rgb(185, 85, 85);    
+}
+
+.btn-green{    
+    background-color: rgb(166 222 162);
+    box-shadow: 0 9px rgb(118, 163, 114);
+}
+
+.btn-full{
+    width: 100%;
+}
+.btn-number:hover{
+    background-color: #b9c1b9
+}
+.btn-red:hover{    
+    background-color: rgb(203, 87, 87);
+}
+.btn-green:hover{    
+    background-color: rgb(134, 189, 130);
+}
+.btn-number:active{
+    box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
